@@ -1,0 +1,26 @@
+{
+    "name": "buycraft/plugin-api",
+    "type": "library",
+    "keywords": [
+        "minecraft",
+        "buycraft"
+    ],
+    "homepage": "https://buycraft.net",
+    "description": "The PHP library for interacting with the Buycraft.net Plugin API.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Buycraft",
+            "email": "support@buycraft.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Buycraft\\Plugin\\": "src/Buycraft/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^1.21"
+    }
+}

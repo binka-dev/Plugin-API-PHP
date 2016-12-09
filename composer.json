@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Buycraft\\Plugin\\": "src/Buycraft/"
+            "Buycraft\\Plugin\\": "src/Buycraft/Plugin/"
         }
     },
     "require": {
